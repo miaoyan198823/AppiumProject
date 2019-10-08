@@ -1,0 +1,18 @@
+1.登录链接：https://kyfw.12306.cn/otn/login/init (get)
+
+2.用户验证1：https://kyfw.12306.cn/passport/web/auth/uamtk (post)
+
+3.获取图片验证码：https://kyfw.12306.cn/passport/captcha/captcha-image?login_site=E&module=login&rand=sjrand&0.004532738635247169(get)
+
+
+4.验证验证码链接：https://kyfw.12306.cn/passport/captcha/captcha-check(post)
+
+5.用户验证2：https://kyfw.12306.cn/passport/web/login(post)
+
+6.用户验证3：https://kyfw.12306.cn/passport/web/auth/uamtk(post)
+
+7.用户验证4：https://kyfw.12306.cn/otn/uamauthclient(post)
+
+headers:
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+Accept: application/json, text/javascript, */*; q=0.01

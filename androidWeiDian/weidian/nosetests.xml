@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.004"><error type="exceptions.ValueError" message="Unable to load tests from file D:\androidWeiDian\weidian\nosetests.xml"><![CDATA[Traceback (most recent call last):
+  File "d:\python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "d:\python27\lib\site-packages\nose\loader.py", line 233, in loadTestsFromFile
+    % filename)
+ValueError: Unable to load tests from file D:\androidWeiDian\weidian\nosetests.xml
+]]></error></testcase></testsuite>

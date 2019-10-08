@@ -1,0 +1,221 @@
+[2017-09-08 15:43:04,589](INFO)src.my.testLogin : 用户登录成功！
+[2017-09-08 15:56:48,184](INFO)src.my.testLogin : 用户登录成功！
+[2017-09-12 15:28:11,380](INFO)src.my.testLogin : 用户登录成功！
+[2017-09-22 16:13:26,427](INFO)src.testCase.testLogin : 用户登录成功！
+[2017-09-22 16:22:23,163](INFO)src.testCase.testLogout : 退出登录成功！
+[2017-09-22 16:34:43,028](INFO)src.testCase.testLogin : 用户登录成功！
+[2017-09-22 16:39:10,660](INFO)src.testCase.testLogout : 退出登录成功！
+[2017-09-22 17:36:37,686](INFO)src.testCase.testLogin : 用户登录成功！
+[2017-09-25 17:58:04,746](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司
+[2017-09-25 18:05:51,301](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司
+[2017-09-26 14:09:41,730](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司
+[2017-09-26 14:11:47,823](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司
+[2017-09-26 14:26:17,453](INFO)src.testCase.testLogin : 用户登录成功！
+[2017-09-26 15:39:11,522](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司主页！
+[2017-09-26 15:44:49,776](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司主页！
+[2017-09-26 15:46:10,219](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司主页！
+[2017-10-11 15:27:25,328](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 11:45:30,098](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司主页！
+[2017-10-12 11:56:47,940](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 11:59:41,515](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 12:00:24,503](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司主页！
+[2017-10-12 12:01:40,144](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 12:07:00,838](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 12:09:46,566](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:25:05,234](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:27:18,667](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:30:21,775](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:33:55,335](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 14:34:58,915](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:35:42,002](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 14:47:20,430](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 14:48:00,474](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:50:39,230](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 14:51:17,345](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 14:52:08,315](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 15:33:46,223](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 15:34:22,740](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 15:35:10,555](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 15:36:56,509](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 15:37:34,408](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 15:41:12,924](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 15:41:47,822](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 15:42:35,292](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 15:45:31,368](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 15:46:19,309](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 15:50:11,158](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 15:50:46,075](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 15:51:37,888](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 17:14:32,621](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 17:15:22,453](INFO)src.testCase.testEnterpriList : 欢迎进入麦利达健康科技（上海）有限公司首页！
+[2017-10-12 17:16:00,809](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 17:16:56,608](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-12 17:47:49,704](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 17:47:51,723](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 17:47:53,737](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 17:54:56,944](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 17:56:09,259](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 17:56:11,278](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 17:56:13,295](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-12 17:58:23,244](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 18:00:02,586](INFO)src.testCase.testEnterpriList : 欢迎进入麦利达健康科技（上海）有限公司首页！
+[2017-10-12 18:00:41,013](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 18:06:36,476](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 18:07:27,427](INFO)src.testCase.testEnterpriList : 欢迎进入乐语通讯店铺首页！
+[2017-10-12 18:08:59,710](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 18:13:04,312](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-12 18:13:56,522](INFO)src.testCase.testEnterpriList : 欢迎进入乐语通讯店铺首页！
+[2017-10-12 18:14:45,016](INFO)src.testCase.testEnterpriList : 欢迎进入麦利达健康科技（上海）有限公司首页！
+[2017-10-12 18:15:34,642](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-12 18:16:34,355](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-17 14:38:11,408](WARNING)src.testCase.testEnterpriList : 无法找到凡迪基因信息！
+[2017-10-17 14:40:20,573](WARNING)src.testCase.testEnterpriList : 无法找到凡迪基因信息！
+[2017-10-17 14:41:43,207](WARNING)src.testCase.testEnterpriList : 无法找到凡迪基因信息！
+[2017-10-17 14:42:53,456](WARNING)src.testCase.testEnterpriList : 无法找到凡迪基因信息！
+[2017-10-17 15:38:10,236](WARNING)src.testCase.testEnterpriList : 无法找到凡迪基因信息！
+[2017-10-19 16:13:13,032](INFO)src.testCase.testEnterpriList : 成功进入悦企业列表页！
+[2017-10-19 16:13:30,686](INFO)src.testCase.testEnterpriList : 成功从悦企业列表进入妙健康公司首页！
+[2017-10-19 16:16:35,710](INFO)src.testCase.testEnterpriList : 成功进入悦企业列表页！
+[2017-10-19 16:16:54,319](INFO)src.testCase.testEnterpriList : 成功从悦企业列表进入妙健康公司首页！
+[2017-10-19 16:18:48,092](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-19 16:19:43,096](INFO)src.testCase.testEnterpriList : 欢迎进入乐语通讯店铺首页！
+[2017-10-19 16:20:33,385](INFO)src.testCase.testEnterpriList : 欢迎进入麦利达健康科技（上海）有限公司首页！
+[2017-10-19 16:21:21,688](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-19 16:22:24,124](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-19 16:24:45,747](INFO)src.testCase.testEnterpriList : 成功进入悦企业列表页！
+[2017-10-19 16:25:02,513](INFO)src.testCase.testEnterpriList : 成功从悦企业列表进入妙健康公司首页！
+[2017-10-19 19:09:29,650](WARNING)src.testCase.testHappyMall : 进入悦商城失败！
+[2017-10-19 19:11:14,927](WARNING)src.testCase.testHappyMall : 进入悦商城失败！
+[2017-10-19 19:22:48,286](WARNING)src.testCase.testHappyMall : 进入悦商城失败！
+[2017-10-19 19:47:44,016](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:19:33,263](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:21:52,246](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:23:35,180](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:26:44,229](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:27:55,778](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:29:31,398](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:31:02,951](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 09:44:07,282](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 11:28:47,045](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 11:33:13,043](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 14:12:37,505](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 14:13:22,249](INFO)src.testCase.testHappyMall : 成功进入镇店之宝页面！
+[2017-10-20 14:15:21,901](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 14:16:05,934](INFO)src.testCase.testHappyMall : 成功进入镇店之宝页面！
+[2017-10-20 14:17:13,344](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 14:18:03,085](INFO)src.testCase.testHappyMall : 成功进入镇店之宝页面！
+[2017-10-20 16:42:34,673](INFO)src.testCase.testHappyMall : 成功进入萌宝出行页面！
+[2017-10-20 16:43:22,693](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-20 16:44:12,342](INFO)src.testCase.testHappyMall : 成功进入镇店之宝页面！
+[2017-10-20 16:45:06,408](INFO)src.testCase.testHappyMall : 成功进入新百好货页面！
+[2017-10-24 10:50:08,069](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-24 10:51:01,323](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-24 10:52:54,693](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-24 10:56:25,029](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-24 11:00:06,851](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-24 11:01:20,125](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-24 11:02:11,835](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-25 11:13:34,015](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:16:57,401](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:25:46,342](WARNING)src.testCase.testPurchase : 从悦内购入口进入悦内购页面失败！
+[2017-10-25 11:31:00,460](WARNING)src.testCase.testPurchase : 从悦内购入口进入悦内购页面失败！
+[2017-10-25 11:33:29,181](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:44:06,683](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:45:31,497](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:46:49,585](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:48:20,776](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-25 11:52:17,667](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-26 10:49:08,065](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-26 10:49:09,200](WARNING)src.testCase.testPurchase : 从悦内购入口进入悦内购页面失败！
+[2017-10-26 10:50:29,392](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-26 10:51:56,944](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-26 10:55:24,811](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-26 10:56:06,614](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-26 10:57:41,730](INFO)src.testCase.testPurchase : 点击悦内购入口成功进入悦内购页面！
+[2017-10-26 10:58:22,694](INFO)src.testCase.testPurchase : 点击悦内购图片成功进入悦内购页面！
+[2017-10-26 11:02:40,207](INFO)src.testCase.testHappyMall : 成功进入萌宝出行页面！
+[2017-10-26 11:03:17,818](INFO)src.testCase.testHappyMall : 成功进入悦商城首页！
+[2017-10-26 11:03:55,487](INFO)src.testCase.testHappyMall : 成功进入镇店之宝页面！
+[2017-10-26 11:04:32,369](WARNING)src.testCase.testHappyMall : 进入新百好货失败！
+[2017-10-26 11:05:18,424](WARNING)src.testCase.testHappyMall : 进入新百好货失败！
+[2017-10-26 11:06:07,414](INFO)src.testCase.testHappyMall : 成功进入新百好货页面！
+[2017-10-26 11:16:26,813](INFO)src.testCase.testHappyMember : 从悦会员入口成功进入积分商城页面！
+[2017-10-26 11:22:44,604](INFO)src.testCase.testHappyMember : 从悦会员入口成功进入积分商城页面！
+[2017-10-26 11:24:22,282](INFO)src.testCase.testHappyMember : 从悦会员入口成功进入积分商城页面！
+[2017-10-26 13:56:49,022](WARNING)src.testCase.testHappyMember : 进入大转盘抽奖页面失败！
+[2017-10-26 13:58:19,497](INFO)src.testCase.testHappyMember : 成功跳转进入大转盘抽奖页面！
+[2017-10-26 14:07:18,068](INFO)src.testCase.testHappyMember : 从悦会员入口成功进入积分商城页面！
+[2017-10-26 14:07:56,961](INFO)src.testCase.testHappyMember : 成功进入1积分抽爆品页面！
+[2017-10-26 14:08:37,732](INFO)src.testCase.testHappyMember : 成功跳转进入大转盘抽奖页面！
+[2017-10-26 15:05:39,750](INFO)src.testCase.testHappyLocal : 成功从悦本地入口进入悦本地列表页!
+[2017-10-26 15:06:21,322](INFO)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页成功！
+[2017-10-26 15:12:20,046](INFO)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页成功！
+[2017-10-26 15:13:44,818](INFO)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页成功！
+[2017-10-26 15:46:43,434](WARNING)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-10-26 15:54:27,016](INFO)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页成功！
+[2017-10-26 15:57:11,404](INFO)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页成功！
+[2017-10-26 18:17:41,674](INFO)src.testCase.testPersonalInformation : 配置昵称成功！
+[2017-10-27 09:53:29,983](INFO)src.testCase.testPersonalInformation : 配置昵称成功！
+[2017-10-27 10:02:13,390](INFO)src.testCase.testPersonalInformation : 配置昵称成功！
+[2017-10-27 10:06:14,085](INFO)src.testCase.testPersonalInformation : 配置昵称成功！
+[2017-10-27 10:15:26,042](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-27 10:15:28,082](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-27 10:15:30,089](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-27 10:15:32,101](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-27 10:15:34,101](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-27 10:15:36,105](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-10-27 10:18:03,125](ERROR)src.testCase.testEnterpriList : 进入凡迪基因公司首页失败！
+[2017-10-27 10:18:45,403](ERROR)src.testCase.testEnterpriList : 进入乐语通讯店铺失败！
+[2017-10-27 10:19:29,828](ERROR)src.testCase.testEnterpriList : 进入麦利达健康公司首页失败！
+[2017-10-27 10:20:12,795](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-27 10:21:01,326](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-27 10:22:37,536](INFO)src.testCase.testEnterpriList : 成功进入悦企业列表页！
+[2017-10-27 10:22:53,130](INFO)src.testCase.testEnterpriList : 成功从悦企业列表进入妙健康公司首页！
+[2017-10-27 10:52:17,482](INFO)src.testCase.testEnterpriList : 欢迎进入凡迪基因公司首页！
+[2017-10-27 10:53:08,875](INFO)src.testCase.testEnterpriList : 欢迎进入乐语通讯店铺首页！
+[2017-10-27 10:54:00,200](INFO)src.testCase.testEnterpriList : 欢迎进入麦利达健康科技（上海）有限公司首页！
+[2017-10-27 10:54:48,987](INFO)src.testCase.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-10-27 10:55:38,513](INFO)src.testCase.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-10-27 10:57:19,109](INFO)src.testCase.testEnterpriList : 成功进入悦企业列表页！
+[2017-10-27 10:57:39,740](INFO)src.testCase.testEnterpriList : 成功从悦企业列表进入妙健康公司首页！
+[2017-10-31 10:27:27,835](INFO)src.testCase.testPersonalInformation : 配置用户生日成功！
+[2017-10-31 10:33:18,506](INFO)src.testCase.testPersonalInformation : 配置用户性别成功！
+[2017-10-31 10:34:45,938](INFO)src.testCase.testPersonalInformation : 配置用户生日成功！
+[2017-10-31 10:36:13,938](INFO)src.testCase.testPersonalInformation : 配置昵称成功！
+[2017-10-31 10:37:18,622](INFO)src.testCase.testPersonalInformation : 配置用户性别成功！
+[2017-11-02 16:56:02,674](ERROR)src.testCase.testLeshare.testEnterpriList : 进入凡迪基因公司首页失败！
+[2017-11-02 16:56:52,926](INFO)src.testCase.testLeshare.testEnterpriList : 欢迎进入乐语通讯店铺首页！
+[2017-11-02 16:57:49,029](ERROR)src.testCase.testLeshare.testEnterpriList : 进入麦利达健康公司首页失败！
+[2017-11-02 16:58:37,230](INFO)src.testCase.testLeshare.testEnterpriList : 欢迎进入妙健康公司首页！
+[2017-11-02 16:59:26,039](INFO)src.testCase.testLeshare.testEnterpriList : 欢迎进入纳塔力健康管理咨询有限公司首页！
+[2017-11-02 17:01:24,279](INFO)src.testCase.testLeshare.testEnterpriList : 成功进入悦企业列表页！
+[2017-11-02 17:01:44,976](INFO)src.testCase.testLeshare.testEnterpriList : 成功从悦企业列表进入妙健康公司首页！
+[2017-11-02 17:02:18,532](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地入口进入悦本地列表页失败！
+[2017-11-02 17:03:11,493](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:03:26,683](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-11-02 17:03:28,710](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-11-02 17:03:30,730](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-11-02 17:03:32,759](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-11-02 17:06:32,322](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-11-02 17:06:34,346](INFO)selenium.webdriver.remote.remote_connection : Could not get IP address for host: 127.0.0.1
+[2017-11-02 17:07:29,075](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地入口进入悦本地列表页失败！
+[2017-11-02 17:12:55,019](INFO)src.testCase.testLeshare.testHappyLocal : 成功从悦本地入口进入悦本地列表页!
+[2017-11-02 17:13:57,220](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:20:56,197](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地入口进入悦本地列表页失败！
+[2017-11-02 17:21:45,289](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:24:39,127](INFO)src.testCase.testHappyLocal : 成功从悦本地入口进入悦本地列表页!
+[2017-11-02 17:25:29,217](WARNING)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:26:29,157](WARNING)src.testCase.testHappyLocal : 从悦本地入口进入悦本地列表页失败！
+[2017-11-02 17:27:23,782](WARNING)src.testCase.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:29:33,394](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地入口进入悦本地列表页失败！
+[2017-11-02 17:31:24,085](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地入口进入悦本地列表页失败！
+[2017-11-02 17:31:54,483](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:32:49,480](INFO)src.testCase.testLeshare.testHappyLocal : 成功从悦本地入口进入悦本地列表页!
+[2017-11-02 17:33:51,622](WARNING)src.testCase.testLeshare.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该内容详情页失败！
+[2017-11-02 17:38:20,323](INFO)src.testCase.testLeshare.testHappyLocal : 成功从悦本地入口进入悦本地列表页!
+[2017-11-02 17:47:14,553](INFO)src.testCase.testLeshare.testHappyLocal : 从悦本地列表页点击【少儿编程兴趣养成】进入该详情页成功！
+[2017-11-10 17:47:21,848](ERROR)__main__ : DB connect fail!
+[2017-11-10 17:54:48,743](ERROR)__main__ : DB connect fail!
+[2017-11-10 17:57:57,648](ERROR)__main__ : DB connect fail!
+[2018-01-29 17:23:54,723](INFO)src.testCase.my.testLogin : 用户登录成功！
+[2018-01-29 17:42:30,276](INFO)src.testCase.my.testLogout : 退出登录成功！
