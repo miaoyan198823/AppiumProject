@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CSDN ITeye Suite]">
+  <test name="TestCreateVolume(failed)">
+    <classes>
+      <class name="com.csdn.adminedupages.TestCreateVolume">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyNewVolume"/>
+          <include name="testCreateVolume"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.csdn.adminedupages.TestCreateVolume -->
+    </classes>
+  </test> <!-- TestCreateVolume(failed) -->
+</suite> <!-- Failed suite [CSDN ITeye Suite] -->

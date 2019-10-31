@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="regression" name="automation test">
+	<property environment="env"/>
+    <property name="lib.dir" value= "lib" />
+	<property name="base.dir" value="."/>
+	<property name="testng.file" value="testng.xml"/>
+	<property name="testng.output.dir" value="${basedir}/test-output"/>  <!--定义报告输出目录 -->
+	<property name="3rd.lib.dir" value="${basedir}/lib"/>				<!--定义testng jar包目录 -->
+	<property name="com.lib.classes" value="${basedir}/bin/com/csdn/mallpages"/>   <!--定义测试项目源代码目录 -->
+	<property name="com.edu.classes" value="${basedir}/bin/com/csdn/edu"/>
+	<property name="com.iteye.classes" value="${basedir}/bin/com/csdn/iteye"/>
+	
+	<taskdef resource="testngtasks" classpath="${3rd.lib.dir}/testng-6.8.6beta.jar"/>  <!--testng jar包版本 -->
+	
+	<!--	<target name="test1" depends="regression,transform" />  --> <!--文件执行顺序，先调用测试代码和testng.xml文件，然后调用transform生成报告  -->
+    <path id= "CSDN.classpath" >
+
+         <!-- adding the saxon jar to your classpath -->
+
+        <fileset dir= "${3rd.lib.dir}" includes= "*.jar"/>    
+    	<fileset dir= "${com.lib.classes}" includes= "*.class"/>     <!--定义测试项目源代码 -->
+    	<fileset dir= "${com.edu.classes}" includes= "*.class"/> 
+        <fileset dir= "${com.iteye.classes}" includes= "*.class"/>
+    	<pathelement location="${basedir}/bin"/>
+
+    </path>
+	<property name="testng.out.dir" value="${env.BUILD_ID}"/>
+	<target name="regression">
+		<echo message="${testng.output.dir}" />
+	        <testng outputdir="${testng.output.dir}" classpathref="CSDN.classpath" delegateCommandSystemProperties="true">
+	            <xmlfileset dir="${basedir}" includes="${testng.file}"/>         <!--定义引用testng.xml文件 -->            
+	        </testng>
+			
+		<antcall target="transform" />
+	 </target>
+	 
+	   
+
+    <target name= "transform" >
+    		
+    	<xslt in= "D:/Program Files/Java/sun/workspace/CSDN/test-output/testng-results.xml" style= "D:/Program Files/Java/sun/workspace/CSDN/test-output/testng-results.xsl"
+    	out= "D:/Program Files/Java/sun/workspace/CSDN/test-output/index1.html" >    <!--定义生成报告原文件，美化样式，然后输出结果路劲 -->  
+    		
+             <!-- you need to specify the directory here again -->
+
+        	<param name="testNgXslt.outputDir" expression= "D:/Program Files/Java/sun/workspace/CSDN/test-output/"/>
+
+            <classpath refid= "CSDN.classpath"/>
+
+        </xslt>
+    	<echo message="${env.BUILD_ID}"></echo>
+    	<echo message="http://localhost:8080/jenkins/job/CSDN_EDU/ws/test-output/index1.html"></echo> <!--定义输出Jenkins报告及当前项目工作路劲-->
+
+    </target>
+	 
+
+</project>

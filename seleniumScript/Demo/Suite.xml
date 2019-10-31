@@ -1,0 +1,20 @@
+<suite name="seleniumcn.cn.demo">
+	<test name="test_seleniumcn" >
+		<classes>
+			<class name="testng.TestGetHandle"/>
+			
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+

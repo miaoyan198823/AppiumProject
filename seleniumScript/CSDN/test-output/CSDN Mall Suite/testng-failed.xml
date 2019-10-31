@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CSDN Mall Suite]">
+  <test name="TestMyOrder(failed)">
+    <classes>
+      <class name="com.csdn.mallpages.TestMyOrder">
+        <methods>
+          <include name="testOrderTypeSelectInfo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testOrderStatusSelectInfo"/>
+          <include name="testOrderRetrievalOperation"/>
+        </methods>
+      </class> <!-- com.csdn.mallpages.TestMyOrder -->
+      <class name="com.csdn.mallpages.TestCrecharge">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.csdn.mallpages.TestCrecharge -->
+    </classes>
+  </test> <!-- TestMyOrder(failed) -->
+</suite> <!-- Failed suite [CSDN Mall Suite] -->

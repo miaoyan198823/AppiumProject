@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [seleniumcn.cn.demo]">
+  <test name="test_edu(failed)">
+    <classes>
+      <class name="testng.TestEduLogin">
+        <methods>
+          <include name="apply_teacher"/>
+        </methods>
+      </class> <!-- testng.TestEduLogin -->
+      <class name="testng.TestEduAddCourseClass">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testng.TestEduAddCourseClass -->
+    </classes>
+  </test> <!-- test_edu(failed) -->
+</suite> <!-- Failed suite [seleniumcn.cn.demo] -->

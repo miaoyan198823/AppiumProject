@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CSDN eduadmin Suite]">
+  <test name="TestHomeScreen(failed)">
+    <classes>
+      <class name="com.csdn.iteye.TestHomeScreen">
+        <methods>
+          <include name="testSearchClick"/>
+          <include name="testNewsClick"/>
+          <include name="testBlogClick"/>
+          <include name="testForumClick"/>
+          <include name="testEssenceClick"/>
+          <include name="testAskClick"/>
+          <include name="testGroupClick"/>
+          <include name="testColumnClick"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.csdn.iteye.TestHomeScreen -->
+    </classes>
+  </test> <!-- TestHomeScreen(failed) -->
+</suite> <!-- Failed suite [CSDN eduadmin Suite] -->

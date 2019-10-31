@@ -1,0 +1,320 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 30 16:22:04 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>50 seconds (50500 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.TestGetHandle.startUp()'><b>startUp</b><br>Test class: testng.TestGetHandle</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7056; process output follows: 
+rceURI&quot;:&quot;file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi&quot;,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[{&quot;locales&quot;:[&quot;zh-CN&quot;],&quot;name&quot;:&quot;数据导入&quot;,&quot;description&quot;:&quot;将其他浏览器数据导入到火�?,&quot;creator&quot;:&quot;Mozilla Online Limited&quot;,&quot;homepageURL&quot;:&quot;http://www.firefox.com.cn/&quot;}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;35.0&quot;,&quot;maxVersion&quot;:&quot;35.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false}
+1427703729864	addons.xpi	DEBUG	getModTime: Recursive scan of cemigration@mozillaonline.com
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	addons.xpi	DEBUG	Install of file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi completed.
+1427703729867	DeferredSave.extensions.json	DEBUG	Starting timer
+1427703729867	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi does not own temp file
+1427703729888	DeferredSave.extensions.json	DEBUG	Starting write
+1427703729892	DeferredSave.extensions.json	DEBUG	Write succeeded
+1427703730019	addons.repository	DEBUG	Got metadata search load event
+1427703730019	DeferredSave.addons.json	DEBUG	Save changes
+1427703730019	DeferredSave.addons.json	DEBUG	Starting timer
+1427703730047	addons.xpi	DEBUG	Staged install of coba@mozilla.com.cn from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi ready; waiting for restart.
+1427703730047	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi does not own temp file
+1427703730072	DeferredSave.addons.json	DEBUG	Starting write
+1427703730075	DeferredSave.addons.json	DEBUG	Write succeeded
+1427703730076	addons.xpi	DEBUG	Starting install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi
+1427703730076	addons.xpi	DEBUG	Addon cehomepage@mozillaonline.com will be installed as an unpacked directory
+1427703730672	addons.xpi	DEBUG	Staged install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi ready; waiting for restart.
+1427703730673	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi does not own temp file
+1427703730908	addons.xpi	DEBUG	Staged install of cpmanager@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi ready; waiting for restart.
+1427703730917	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi does not own temp file
+1427703737184	addons.xpi	DEBUG	Calling bootstrap method shutdown on wx-assistant@mozillaonline.com version 1.1.3
+1427703737186	addons.xpi	DEBUG	Calling bootstrap method shutdown on commonfix@mozillaonline.com version 0.10
+1427703737339	addons.manager	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1427703737339	addons.xpi	DEBUG	shutdown
+1427703737339	addons.xpi-utils	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for OpenH264Provider
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1427703737341	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1427703737342	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427703737342	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;miaoyan-PC&apos;, ip: &apos;192.168.5.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at testng.TestGetHandle.startUp(TestGetHandle.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7056 after 45000 ms. Firefox console output:
+rceURI&quot;:&quot;file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi&quot;,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[{&quot;locales&quot;:[&quot;zh-CN&quot;],&quot;name&quot;:&quot;数据导入&quot;,&quot;description&quot;:&quot;将其他浏览器数据导入到火�?,&quot;creator&quot;:&quot;Mozilla Online Limited&quot;,&quot;homepageURL&quot;:&quot;http://www.firefox.com.cn/&quot;}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;35.0&quot;,&quot;maxVersion&quot;:&quot;35.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false}
+1427703729864	addons.xpi	DEBUG	getModTime: Recursive scan of cemigration@mozillaonline.com
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	addons.xpi	DEBUG	Install of file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi completed.
+1427703729867	DeferredSave.extensions.json	DEBUG	Starting timer
+1427703729867	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi does not own temp file
+1427703729888	DeferredSave.extensions.json	DEBUG	Starting write
+1427703729892	DeferredSave.extensions.json	DEBUG	Write succeeded
+1427703730019	addons.repository	DEBUG	Got metadata search load event
+1427703730019	DeferredSave.addons.json	DEBUG	Save changes
+1427703730019	DeferredSave.addons.json	DEBUG	Starting timer
+1427703730047	addons.xpi	DEBUG	Staged install of coba@mozilla.com.cn from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi ready; waiting for restart.
+1427703730047	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi does not own temp file
+1427703730072	DeferredSave.addons.json	DEBUG	Starting write
+1427703730075	DeferredSave.addons.json	DEBUG	Write succeeded
+1427703730076	addons.xpi	DEBUG	Starting install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi
+1427703730076	addons.xpi	DEBUG	Addon cehomepage@mozillaonline.com will be installed as an unpacked directory
+1427703730672	addons.xpi	DEBUG	Staged install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi ready; waiting for restart.
+1427703730673	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi does not own temp file
+1427703730908	addons.xpi	DEBUG	Staged install of cpmanager@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi ready; waiting for restart.
+1427703730917	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi does not own temp file
+1427703737184	addons.xpi	DEBUG	Calling bootstrap method shutdown on wx-assistant@mozillaonline.com version 1.1.3
+1427703737186	addons.xpi	DEBUG	Calling bootstrap method shutdown on commonfix@mozillaonline.com version 0.10
+1427703737339	addons.manager	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1427703737339	addons.xpi	DEBUG	shutdown
+1427703737339	addons.xpi-utils	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for OpenH264Provider
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1427703737341	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1427703737342	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427703737342	addons.manager	DEBUG	Async provider shutdown done
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 33 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace782121441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace782121441'><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7056; process output follows: 
+rceURI&quot;:&quot;file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi&quot;,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[{&quot;locales&quot;:[&quot;zh-CN&quot;],&quot;name&quot;:&quot;数据导入&quot;,&quot;description&quot;:&quot;将其他浏览器数据导入到火�?,&quot;creator&quot;:&quot;Mozilla Online Limited&quot;,&quot;homepageURL&quot;:&quot;http://www.firefox.com.cn/&quot;}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;35.0&quot;,&quot;maxVersion&quot;:&quot;35.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false}
+1427703729864	addons.xpi	DEBUG	getModTime: Recursive scan of cemigration@mozillaonline.com
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	addons.xpi	DEBUG	Install of file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi completed.
+1427703729867	DeferredSave.extensions.json	DEBUG	Starting timer
+1427703729867	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi does not own temp file
+1427703729888	DeferredSave.extensions.json	DEBUG	Starting write
+1427703729892	DeferredSave.extensions.json	DEBUG	Write succeeded
+1427703730019	addons.repository	DEBUG	Got metadata search load event
+1427703730019	DeferredSave.addons.json	DEBUG	Save changes
+1427703730019	DeferredSave.addons.json	DEBUG	Starting timer
+1427703730047	addons.xpi	DEBUG	Staged install of coba@mozilla.com.cn from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi ready; waiting for restart.
+1427703730047	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi does not own temp file
+1427703730072	DeferredSave.addons.json	DEBUG	Starting write
+1427703730075	DeferredSave.addons.json	DEBUG	Write succeeded
+1427703730076	addons.xpi	DEBUG	Starting install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi
+1427703730076	addons.xpi	DEBUG	Addon cehomepage@mozillaonline.com will be installed as an unpacked directory
+1427703730672	addons.xpi	DEBUG	Staged install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi ready; waiting for restart.
+1427703730673	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi does not own temp file
+1427703730908	addons.xpi	DEBUG	Staged install of cpmanager@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi ready; waiting for restart.
+1427703730917	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi does not own temp file
+1427703737184	addons.xpi	DEBUG	Calling bootstrap method shutdown on wx-assistant@mozillaonline.com version 1.1.3
+1427703737186	addons.xpi	DEBUG	Calling bootstrap method shutdown on commonfix@mozillaonline.com version 0.10
+1427703737339	addons.manager	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1427703737339	addons.xpi	DEBUG	shutdown
+1427703737339	addons.xpi-utils	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for OpenH264Provider
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1427703737341	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1427703737342	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427703737342	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;miaoyan-PC&apos;, ip: &apos;192.168.5.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at testng.TestGetHandle.startUp(TestGetHandle.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7056 after 45000 ms. Firefox console output:
+rceURI&quot;:&quot;file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi&quot;,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[{&quot;locales&quot;:[&quot;zh-CN&quot;],&quot;name&quot;:&quot;数据导入&quot;,&quot;description&quot;:&quot;将其他浏览器数据导入到火�?,&quot;creator&quot;:&quot;Mozilla Online Limited&quot;,&quot;homepageURL&quot;:&quot;http://www.firefox.com.cn/&quot;}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;35.0&quot;,&quot;maxVersion&quot;:&quot;35.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false}
+1427703729864	addons.xpi	DEBUG	getModTime: Recursive scan of cemigration@mozillaonline.com
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	DeferredSave.extensions.json	DEBUG	Save changes
+1427703729866	addons.xpi	DEBUG	Install of file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi completed.
+1427703729867	DeferredSave.extensions.json	DEBUG	Starting timer
+1427703729867	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cemigration@mozillaonline.com.xpi does not own temp file
+1427703729888	DeferredSave.extensions.json	DEBUG	Starting write
+1427703729892	DeferredSave.extensions.json	DEBUG	Write succeeded
+1427703730019	addons.repository	DEBUG	Got metadata search load event
+1427703730019	DeferredSave.addons.json	DEBUG	Save changes
+1427703730019	DeferredSave.addons.json	DEBUG	Starting timer
+1427703730047	addons.xpi	DEBUG	Staged install of coba@mozilla.com.cn from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi ready; waiting for restart.
+1427703730047	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/coba@mozilla.com.cn.xpi does not own temp file
+1427703730072	DeferredSave.addons.json	DEBUG	Starting write
+1427703730075	DeferredSave.addons.json	DEBUG	Write succeeded
+1427703730076	addons.xpi	DEBUG	Starting install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi
+1427703730076	addons.xpi	DEBUG	Addon cehomepage@mozillaonline.com will be installed as an unpacked directory
+1427703730672	addons.xpi	DEBUG	Staged install of cehomepage@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi ready; waiting for restart.
+1427703730673	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cehomepage@mozillaonline.com.xpi does not own temp file
+1427703730908	addons.xpi	DEBUG	Staged install of cpmanager@mozillaonline.com from file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi ready; waiting for restart.
+1427703730917	addons.xpi	DEBUG	removeTemporaryFile: file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/distribution/myextensions/cpmanager@mozillaonline.com.xpi does not own temp file
+1427703737184	addons.xpi	DEBUG	Calling bootstrap method shutdown on wx-assistant@mozillaonline.com version 1.1.3
+1427703737186	addons.xpi	DEBUG	Calling bootstrap method shutdown on commonfix@mozillaonline.com version 0.10
+1427703737339	addons.manager	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1427703737339	addons.xpi	DEBUG	shutdown
+1427703737339	addons.xpi-utils	DEBUG	shutdown
+1427703737339	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for OpenH264Provider
+1427703737340	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1427703737341	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1427703737342	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427703737342	addons.manager	DEBUG	Async provider shutdown done
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>testng.TestGetHandle@333903d0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.TestGetHandle.TestGetHandle_Windows()'><b>TestGetHandle_Windows</b><br>Test class: testng.TestGetHandle</td>
+<td></td>
+<td>0</td>
+<td>testng.TestGetHandle@333903d0</td></tr>
+</table><p>
+</body>
+</html>

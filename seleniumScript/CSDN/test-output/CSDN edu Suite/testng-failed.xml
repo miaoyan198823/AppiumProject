@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CSDN edu Suite]">
+  <test name="TestHomeScreen(failed)">
+    <classes>
+      <class name="com.csdn.iteye.TestHomeScreen">
+        <methods>
+          <include name="testForumClick"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.csdn.iteye.TestHomeScreen -->
+    </classes>
+  </test> <!-- TestHomeScreen(failed) -->
+</suite> <!-- Failed suite [CSDN edu Suite] -->
